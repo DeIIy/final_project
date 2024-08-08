@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #3498db;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #2980b9;
+}
+
+select,
+input {
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 12px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+#hotelRating {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.star-rating {
+    margin: 8px 0;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 24px;
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.star-rating label:hover,
+.star-rating input:checked + label {
+    color: #f8d400;
+}
+
+div.server-response {
+    background-color: #2980b9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  div.server-response h2 {
+    color: white;
+    text-align: center;
+  }
+  
+  div.server-response pre {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+  }
