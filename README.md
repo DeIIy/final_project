@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+![MasterHead](https://github.com/DeIIy/final_project/blob/main/README_Folder/24YYBB24018_Poster.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Artificial Intelligence That Calculates the Estimated Budget of Flight Tickets, Hotels and Transportation Prices
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+This project is to provide a platform that predicts flight ticket, hotel and taxi prices with the support of artificial intelligence while users are making their travel plans. This platform recommends economical options that are suitable for users' preferences and needs and provides a more efficient experience by facilitating travel planning.
 
-### `npm start`
+## Project Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Web scraping of flight ticket and hotel data from ‘https://www.makemytrip.com/’ using Selenium.
+- Analysing airline ticket and hotel raw data with data mining techniques and transforming them into usable data
+- Multiple linear regression modeling with the available data.
+- Designing a dynamic and user-friendly website interface
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+![Screenshots_1](https://github.com/DeIIy/final_project/blob/main/README_Folder/Empty_Interface.png)
+![Screenshots_2](https://github.com/DeIIy/final_project/blob/main/README_Folder/Full_Interface.png)
+![Screenshots_3](https://github.com/DeIIy/final_project/blob/main/README_Folder/Flight_Datas.png)
+![Screenshots_4](https://github.com/DeIIy/final_project/blob/main/README_Folder/Hotel_Datas.png)
+![Screenshots_5](https://github.com/DeIIy/final_project/blob/main/README_Folder/Selected_Data.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup
 
-### `npm run build`
+### Requirements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js
+- Python 3.x
+- pip
+- Git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Steps
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/DeIIy/final_project.git
+    ```
 
-### `npm run eject`
+2. **Frontend**
+    ```bash
+    npm start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Backend**
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    flask run
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
+- React Frontend: `http://localhost:3000`
+- Flight Flask backend: `http://localhost:5000`
+- Hotel Flask backend: `http://localhost:5001`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You can start using the application by visiting `http://localhost:3000` in your browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Architecture and Project Structure
 
-## Learn More
+- `frontend/`: React Application.
+- `backend/`: Flask Application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contribute
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you would like to contribute, please open an "issue" first and state what you would like to improve. You can then submit a "pull request".
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Licence
+This project is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. Please use with appropriate attribution to the project owner: Yusuf Tunahan ETLİK(DeIIy).
 
-### Analyzing the Bundle Size
+## Communication
+If you have questions or suggestions about this project, please email [ytetlik6875@gmail.com](mailto:ytetlik6875@gmail.com).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Resources and Learnings
+- [React Official Documentation](https://reactjs.org/docs/getting-started.html)
+- [Flask Official Documentation](https://flask.palletsprojects.com/)
+- [Structure used in web scraping](https://github.com/andrew-geeks/MakeMyTrip-scraper)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For more detailed information, review the project report: [Insurance Company Website Report](https://github.com/DeIIy/final_project/blob/main/README_Folder/Bitirme_Projesi_Raporu.pdf).
