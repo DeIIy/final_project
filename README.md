@@ -78,4 +78,4 @@ If you have questions or suggestions about this project, please email [ytetlik68
 - [Flask Official Documentation](https://flask.palletsprojects.com/)
 - [Structure used in web scraping](https://github.com/andrew-geeks/MakeMyTrip-scraper)
 
-For more detailed information, review the project report: [Insurance Company Website Report](https://github.com/DeIIy/final_project/blob/main/README_Folder/Bitirme_Projesi_Raporu.pdf).
+For more detailed information, review the project report: [Final Project Report](https://github.com/DeIIy/final_project/blob/main/README_Folder/Bitirme_Projesi_Raporu.pdf).
